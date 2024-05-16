@@ -1,0 +1,188 @@
+/*adds styles to the cards*/
+/*adds styles to the cards*/
+.card {
+    margin: 15px 15px 15px 15px;
+    border: 1px solid black; 
+
+    border: 1px solid black; 
+
+}
+
+/*header styles of the card */
+/*header styles of the card */
+.card-body {
+    border-radius: 5px;
+    padding: 20px;
+    /* background-color:  #486980;     */
+    /* background-color:  #a2ceec; */
+    background-color:  #dee1e4;
+    color: #1c1c1d; 
+    /* background-color:  #486980;     */
+    /* background-color:  #a2ceec; */
+    background-color:  #dee1e4;
+    color: #1c1c1d; 
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #b0b8be;
+    color: #b0b8be;
+}
+
+
+/*adds color to the navbar*/
+/*adds color to the navbar*/
+.custom-navbar {
+    background-color: #092866 !important;
+    color: #f8f9fa;
+    background-color: #092866 !important;
+    color: #f8f9fa;
+  }
+
+  /*nav bar styles*/
+  .nav-text-color {
+    color: rgb(244, 246, 250) ;
+  }
+
+  .nav-text-color:hover {
+    color: rgb(194, 194, 231); 
+  }
+  /*nav bar styles*/
+  .nav-text-color {
+    color: rgb(244, 246, 250) ;
+  }
+
+  .nav-text-color:hover {
+    color: rgb(194, 194, 231); 
+  }
+
+  .navbar-brand-bold {
+    font-weight: bold;
+  }
+
+  /*hamburger color*/
+  .navbar-toggler.navbar-hamburger {
+    background-color: #ffffff;
+  }
+
+/*text styles*/
+  
+  .text-color-one {
+    color: rgb(18, 18, 19);
+  }
+
+  .text-color-two {
+    color: rgb(23, 23, 24);
+  }
+
+  .text-color:hover {
+    color: rgb(228, 228, 230); 
+  }
+
+  
+  /*In large viewports, it applies this specific width*/
+  @media (min-width: 992px) {
+    .add-project-btn {
+      width: 210px !important;
+    }
+  }
+  
+  /*button styles*/
+  /*hamburger color*/
+  .navbar-toggler.navbar-hamburger {
+    background-color: #ffffff;
+  }
+
+/*text styles*/
+  
+  .text-color-one {
+    color: rgb(18, 18, 19);
+  }
+
+  .text-color-two {
+    color: rgb(23, 23, 24);
+  }
+
+  .text-color:hover {
+    color: rgb(228, 228, 230); 
+  }
+
+  
+  /*In large viewports, it applies this specific width*/
+  @media (min-width: 992px) {
+    .add-project-btn {
+      width: 210px !important;
+    }
+  }
+  
+  /*button styles*/
+  .add-project-btn {
+    background-color:#1bb341; 
+    background-color:#1bb341; 
+    color: white; 
+  }
+  .add-project-btn:hover {
+    background-color: #158a32; 
+    color: white; 
+
+  }
+  .add-project-btn:hover {
+    background-color: #158a32; 
+    color: white; 
+
+  }
+
+  .add-buttons{
+    background-color: #1a8f8f;
+    background-color: #1a8f8f;
+    color: white;
+  }
+
+  .add-buttons:hover{
+    background-color:  #116e6e;
+    color: white; 
+  }
+  
+
+  .add-buttons:hover{
+    background-color:  #116e6e;
+    color: white; 
+  }
+  
+  
+  .edit-button{
+    background-color: #da7d40;
+    background-color: #da7d40;
+    color: white;
+  }
+
+  .edit-button:hover{
+    background-color: #b1632f;
+
+  }
+
+.btn {
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+/*Adds color to the body*/
+  body{
+    background-color: #f8f9fc;
+  }
+
+/*Adds colors to the links*/
+
+.custom-active-link {
+  --bs-navbar-active-color: rgba(0, 0, 0, 0) !important; /* Color transparente */
+  color: rgb(240, 234, 234) !important; /* Color de texto transparente */
+}
+
+.is-active {
+  color: #50dcff !important; /* Cambia este valor al color deseado */
+}
